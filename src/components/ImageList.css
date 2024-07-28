@@ -1,0 +1,11 @@
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .image-list {
+        grid-template-columns: 1fr;
+    }
+}
